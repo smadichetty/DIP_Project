@@ -3,16 +3,16 @@
 Morphological Matching with GUI for Image Analysis
 
 Team : T08
-Name: Soumya Madichetty
+Name: Soumya Madichetty,
 Z-Number: Z23705586
 
-Name: FNU Jahanavi
+Name: FNU Jahanavi,
 Z-Number: Z23748415
 
-Name: Sai Nikhil Pothukuchi
+Name: Sai Nikhil Pothukuchi,
 Z-Number: Z23721370
 
-Name: Santhosh Vishwanadula
+Name: Santhosh Vishwanadula,
 Z-Number: Z23736637
 
 
