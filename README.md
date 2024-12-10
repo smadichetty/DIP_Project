@@ -12,7 +12,7 @@ Z-Number: Z23748415
 Name: Sai Nikhil Pothukuchi
 Z-Number: Z23721370
 
-Name: Santosh Vishwa
+Name: Santhosh Vishwanadula
 Z-Number: Z23736637
 
 
