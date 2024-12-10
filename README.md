@@ -2,6 +2,20 @@
 
 Morphological Matching with GUI for Image Analysis
 
+Team : T08
+Name: Soumya Madichetty
+Z-Number: Z23705586
+
+Name: FNU Jahanavi
+Z-Number: Z23748415
+
+Name: Sai Nikhil Pothukuchi
+Z-Number: Z23721370
+
+Name: Santosh Vishwa
+Z-Number: Z23736637
+
+
 Abstract
 
 Fundamentally, with the rapid development of digital imaging, there is an urgent need for new methods to analyze and compare images. This paper represents the design and implementation of the morphological matching system with a graphical user interface. Conventionally, this system will enable users to query against visually similar images, which have morphological features such as erosion, dilation, opening, and closing within the large datasets of images. Implemented in Python, the system involves OpenCV for image processing, Tkinter for GUI development, and standard distance metrics for measuring similarity. The final system is robust and efficient and finds lots of potential applications in medical imaging, satellite image processing, and digital forensics.
