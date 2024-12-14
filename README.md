@@ -192,7 +192,7 @@ Prerequisites
 Before running the application in MATLAB Online, ensure the following requirements are met:
 
 1. MATLAB Online Access
-•	Access MATLAB Online through your MathWorks account.
+•	Access MATLAB Online through your MathWorks account.("https://matlab.mathworks.com/"
 •	A valid license for MATLAB is required (academic or commercial).
 2. Required Toolboxes
 •	Confirm that the Image Processing Toolbox is available. To check for installed toolboxes in MATLAB Online, run the following command in the MATLAB Command Window:
