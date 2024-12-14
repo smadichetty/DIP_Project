@@ -185,11 +185,12 @@ Opening, which comprises erosion followed by dilation, successfully removes slig
 
 The similarity scores for each of these operations were then shown with the corresponding images of the datasets in the feature-wise GUI. The ability to view the structural properties of the query image to those of the dataset images proves helpful in terms of assessing the morphological likeness and disparity. The results demonstrate that the system can perform detailed image analyses and enables good content-based image retrieval.
 
-How to Run Morphological Matching Application in MATLAB Online
+ Running Morphological Matching Application in MATLAB Online
 
 Prerequisites
 
 Before running the application in MATLAB Online, ensure the following requirements are met:
+
 1. MATLAB Online Access
 •	Access MATLAB Online through your MathWorks account.
 •	A valid license for MATLAB is required (academic or commercial).
@@ -217,16 +218,15 @@ o	One or more image files (.jpg, .png, .bmp) to use as the query and dataset ima
 
 Step-by-Step Instructions to Run the Application
 
-1. Upload Files to MATLAB Online
-
-i.	Log in to MATLAB Online: Go to MATLAB Online and log in using your MathWorks account.
-ii.	Upload the Files:
-iii.	Navigate to the Home tab in MATLAB Online.
-iv.	Click Upload and select the MorphologicalMatchingApp.m file.
-v.	Similarly, upload the image files that you plan to use.
+i. Upload Files to MATLAB Online
+ii.	Log in to MATLAB Online: Go to MATLAB Online and log in using your MathWorks account.
+iii.	Upload the Files:
+iv.	Navigate to the Home tab in MATLAB Online.
+v.	Click Upload and select the MorphologicalMatchingApp.m file.
+vi.	Similarly, upload the image files that you plan to use.
 
 Set the Current Folder
-Ensure that the folder containing MorphologicalMatchingApp.m is set as the current directory. You can do this by:
+Ensure that the folder containing MorphologicalMatchingApp.m is set as the current directory. It can be done this by:
 •	Using the Current Folder browser to navigate to the appropriate folder, or
 •	Typing the following command in the MATLAB Command Window:
 cd('path_to_the_folder')
