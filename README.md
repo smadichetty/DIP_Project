@@ -185,9 +185,75 @@ Opening, which comprises erosion followed by dilation, successfully removes slig
 
 The similarity scores for each of these operations were then shown with the corresponding images of the datasets in the feature-wise GUI. The ability to view the structural properties of the query image to those of the dataset images proves helpful in terms of assessing the morphological likeness and disparity. The results demonstrate that the system can perform detailed image analyses and enables good content-based image retrieval.
 
-5.2 Example Output
- 
-Figure 1: Sample Output
+How to Run Morphological Matching Application in MATLAB Online
+
+Prerequisites
+
+Before running the application in MATLAB Online, ensure the following requirements are met:
+1. MATLAB Online Access
+•	Access MATLAB Online through your MathWorks account.
+•	A valid license for MATLAB is required (academic or commercial).
+2. Required Toolboxes
+•	Confirm that the Image Processing Toolbox is available. To check for installed toolboxes in MATLAB Online, run the following command in the MATLAB Command Window:
+
+"ver"
+
+Ensure that the Image Processing Toolbox is listed in the output.
+
+4. Supported Web Browser
+•	Use the latest version of one of the following browsers:
+o	Google Chrome
+o	Mozilla Firefox
+o	Safari
+o	Microsoft Edge
+
+5. Stable Internet Connection
+•	MATLAB Online requires a reliable and high-speed internet connection to function properly.
+
+7. Input Files
+•	Have the following files ready for upload:
+o	MorphologicalMatchingApp.m: The MATLAB application file.
+o	One or more image files (.jpg, .png, .bmp) to use as the query and dataset images.
+
+Step-by-Step Instructions to Run the Application
+
+1. Upload Files to MATLAB Online
+
+i.	Log in to MATLAB Online: Go to MATLAB Online and log in using your MathWorks account.
+ii.	Upload the Files:
+iii.	Navigate to the Home tab in MATLAB Online.
+iv.	Click Upload and select the MorphologicalMatchingApp.m file.
+v.	Similarly, upload the image files that you plan to use.
+
+Set the Current Folder
+Ensure that the folder containing MorphologicalMatchingApp.m is set as the current directory. You can do this by:
+•	Using the Current Folder browser to navigate to the appropriate folder, or
+•	Typing the following command in the MATLAB Command Window:
+cd('path_to_the_folder')
+Replace "path_to_the_folder" with the location where the MorphologicalMatchingApp.m file is uploaded.
+
+Run the Application
+1.	Open the MATLAB Command Window.
+2.	Type the following command to launch the application:
+"runApp"
+3.	The application interface will appear.
+4. Use the Application
+
+Uploading a Query Image
+•	Click the "Upload Query Image" button.
+•	Select an image file from your local system.
+•	The application will preprocess the image and display it in the query canvas. A success message will confirm the upload.
+
+Uploading Dataset Images
+•	Click the "Upload Dataset Images" button.
+•	Select one or more image files from your local system.
+•	The application will preprocess the images and store the extracted features. A success message will confirm the upload.
+
+Calculating Similarity
+•	Click the "Calculate Similarity" button.
+•	The application will compute the feature-based similarity between the query image and dataset images.
+•	Results, including similarity values for morphological features, will be displayed in the results panel.
+
 
 5.3 Performance
 
