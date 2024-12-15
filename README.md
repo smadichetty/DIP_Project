@@ -59,6 +59,10 @@ All these operations are made using structuring elements (kernels) of 5×5 in si
 
 For comparing images, the extracted features of the query image are matched against those of the dataset images using Euclidean distance. The distance is calculated for each morphological feature, and a feature-wise similarity score is generated. Lower distances indicate higher similarity.
 
+Threshold Comparison:
+
+The threshold is used to decide if two images are considered similar. If the calculated distance between features is less than or equal to 5000, the images are considered "Similar". If it's greater than 5000, the images are considered "Not Similar".
+
 Python Implementation
 
 def calculate_featurewise_similarity(query_features_dict, dataset_features_dict):
