@@ -3,15 +3,15 @@ classdef MorphologicalMatchingApp < handle
 
     properties
         % UI Components
-        Figure
-        QueryCanvas
-        ResultsPanel
-        ResultsPanelScrollable
-        QueryImagePath
-        DatasetImagePaths
-        QueryFeatures
-        DatasetFeatures
-        SimilarityThreshold = 5000;  % Default similarity threshold value
+        Figure  % The main figure window for the app
+        QueryCanvas  % Canvas to display the query image
+        ResultsPanel  % Panel to display results
+        ResultsPanelScrollable  % Scrollable layout for displaying results
+        QueryImagePath   % Path of the uploaded query image
+        DatasetImagePaths   % Paths of the uploaded dataset images
+        QueryFeatures  % Extracted features of the query image
+        DatasetFeatures  % Extracted features of the dataset images
+        SimilarityThreshold = 5000;  % Similarity threshold value
     end
     
     methods
