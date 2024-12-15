@@ -11,7 +11,7 @@ classdef MorphologicalMatchingApp < handle
         DatasetImagePaths
         QueryFeatures
         DatasetFeatures
-        SimilarityThreshold = 5000;  %  Similarity threshold value
+        SimilarityThreshold = 5000;  % Default similarity threshold value
     end
     
     methods
